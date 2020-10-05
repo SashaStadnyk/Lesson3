@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Список покупок</title>
-</head>
-<h1> Список покупок:</h1>
+  </head>
+  <h1>Список покупок:</h1>
 
-<body>
-    <table>
+  <body>
 
-        <form action="./postform.php" method="GET"></form>
-        <fieldset>
-            <input name="checkgroup" type="checkbox" value="1" /> Хлеб
-        </fieldset>
+      <fieldset>
+          <ul>
+        <li>
+          <input name="bread" id="bread" type="checkbox" value="1" /> Хлеб
+          <label for="bread"></label>
+        </li>
+        <li>
+        <input name="butter" id="butter" type="checkbox" value="2" /> Масло
+        <label for="butter"></label>
+        </li>
+        <li>
+        <input name="milk" id="milk" type="checkbox" value="3" /> Молоко
+        <label for="milk"></label>
+        </li>
+        <li>
+        <input name="cheese" id="cheese" type="checkbox" value="4" /> Сыр
+        <label for="cheese"></label>
+        </li>
+        <li>
+        <input name="cookie"id="cookie" type="checkbox" value="5" /> Печенье
+        <label for="cookie"></label>
+        </li>
+        <li>
+        <input name="tea" id="tea" type="checkbox" value="6" /> Чай
+        <label for="tea"></label>
+        </li>
+      </fieldset>
 
-        <fieldset>
-            <input name="checkgroup" type="checkbox" value="2" /> Масло
-        </fieldset>
-
-        <fieldset>
-            <input name="checkgroup" type="checkbox" value="3" /> Молоко
-        </fieldset>
-
-        <fieldset>
-            <input name="checkgroup" type="checkbox" value="4" /> Сыр
-        </fieldset>
-
-        <fieldset>
-            <input name="checkgroup" type="checkbox" value="5" /> Печенье
-        </fieldset>
-
-        <fieldset>
-            <input name="checkgroup" type="checkbox" value="6" /> Чай
-        </fieldset>
-
-        <fieldset>
-            <input name="checkgroup" type="checkbox" value="7" /> Toyota land cruiser 200
-        </fieldset>
-
-    </table>
-
-</body>
-
+    
+    </ul>
+  </body>
 </html>
